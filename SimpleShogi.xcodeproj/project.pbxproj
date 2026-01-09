@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CD8A732F10A45400F4B2D6 /* SimpleShogi Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 10CD8A722F10A45400F4B2D6 /* SimpleShogi Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CD8A742F10A45400F4B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CD8A662F10A45300F4B2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CD8A712F10A45400F4B2D6;
+			remoteInfo = "SimpleShogi Watch App";
+		};
+		10CD8A822F10A45500F4B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CD8A662F10A45300F4B2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CD8A712F10A45400F4B2D6;
+			remoteInfo = "SimpleShogi Watch App";
+		};
+		10CD8A8C2F10A45500F4B2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CD8A662F10A45300F4B2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CD8A712F10A45400F4B2D6;
+			remoteInfo = "SimpleShogi Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10CD8A982F10A45500F4B2D6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				10CD8A732F10A45400F4B2D6 /* SimpleShogi Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10CD8A6C2F10A45400F4B2D6 /* SimpleShogi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleShogi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD8A722F10A45400F4B2D6 /* SimpleShogi Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleShogi Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD8A812F10A45500F4B2D6 /* SimpleShogi Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleShogi Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CD8A8B2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleShogi Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		10CD8A762F10A45400F4B2D6 /* SimpleShogi Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SimpleShogi Watch App";
+			sourceTree = "<group>";
+		};
+		10CD8A842F10A45500F4B2D6 /* SimpleShogi Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SimpleShogi Watch AppTests";
+			sourceTree = "<group>";
+		};
+		10CD8A8E2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SimpleShogi Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CD8A6F2F10A45400F4B2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A7E2F10A45500F4B2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A882F10A45500F4B2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CD8A652F10A45300F4B2D6 = {
+			isa = PBXGroup;
+			children = (
+				10CD8A762F10A45400F4B2D6 /* SimpleShogi Watch App */,
+				10CD8A842F10A45500F4B2D6 /* SimpleShogi Watch AppTests */,
+				10CD8A8E2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests */,
+				10CD8A6D2F10A45400F4B2D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CD8A6D2F10A45400F4B2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CD8A6C2F10A45400F4B2D6 /* SimpleShogi.app */,
+				10CD8A722F10A45400F4B2D6 /* SimpleShogi Watch App.app */,
+				10CD8A812F10A45500F4B2D6 /* SimpleShogi Watch AppTests.xctest */,
+				10CD8A8B2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CD8A6B2F10A45400F4B2D6 /* SimpleShogi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD8A992F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi" */;
+			buildPhases = (
+				10CD8A6A2F10A45400F4B2D6 /* Resources */,
+				10CD8A982F10A45500F4B2D6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CD8A752F10A45400F4B2D6 /* PBXTargetDependency */,
+			);
+			name = SimpleShogi;
+			packageProductDependencies = (
+			);
+			productName = SimpleShogi;
+			productReference = 10CD8A6C2F10A45400F4B2D6 /* SimpleShogi.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		10CD8A712F10A45400F4B2D6 /* SimpleShogi Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD8A952F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch App" */;
+			buildPhases = (
+				10CD8A6E2F10A45400F4B2D6 /* Sources */,
+				10CD8A6F2F10A45400F4B2D6 /* Frameworks */,
+				10CD8A702F10A45400F4B2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				10CD8A762F10A45400F4B2D6 /* SimpleShogi Watch App */,
+			);
+			name = "SimpleShogi Watch App";
+			packageProductDependencies = (
+			);
+			productName = "SimpleShogi Watch App";
+			productReference = 10CD8A722F10A45400F4B2D6 /* SimpleShogi Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10CD8A802F10A45500F4B2D6 /* SimpleShogi Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD8A9C2F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch AppTests" */;
+			buildPhases = (
+				10CD8A7D2F10A45500F4B2D6 /* Sources */,
+				10CD8A7E2F10A45500F4B2D6 /* Frameworks */,
+				10CD8A7F2F10A45500F4B2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CD8A832F10A45500F4B2D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10CD8A842F10A45500F4B2D6 /* SimpleShogi Watch AppTests */,
+			);
+			name = "SimpleShogi Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "SimpleShogi Watch AppTests";
+			productReference = 10CD8A812F10A45500F4B2D6 /* SimpleShogi Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10CD8A8A2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CD8A9F2F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch AppUITests" */;
+			buildPhases = (
+				10CD8A872F10A45500F4B2D6 /* Sources */,
+				10CD8A882F10A45500F4B2D6 /* Frameworks */,
+				10CD8A892F10A45500F4B2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CD8A8D2F10A45500F4B2D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10CD8A8E2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests */,
+			);
+			name = "SimpleShogi Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "SimpleShogi Watch AppUITests";
+			productReference = 10CD8A8B2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CD8A662F10A45300F4B2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					10CD8A6B2F10A45400F4B2D6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					10CD8A712F10A45400F4B2D6 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					10CD8A802F10A45500F4B2D6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 10CD8A712F10A45400F4B2D6;
+					};
+					10CD8A8A2F10A45500F4B2D6 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 10CD8A712F10A45400F4B2D6;
+					};
+				};
+			};
+			buildConfigurationList = 10CD8A692F10A45300F4B2D6 /* Build configuration list for PBXProject "SimpleShogi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10CD8A652F10A45300F4B2D6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10CD8A6D2F10A45400F4B2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CD8A6B2F10A45400F4B2D6 /* SimpleShogi */,
+				10CD8A712F10A45400F4B2D6 /* SimpleShogi Watch App */,
+				10CD8A802F10A45500F4B2D6 /* SimpleShogi Watch AppTests */,
+				10CD8A8A2F10A45500F4B2D6 /* SimpleShogi Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CD8A6A2F10A45400F4B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A702F10A45400F4B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A7F2F10A45500F4B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A892F10A45500F4B2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CD8A6E2F10A45400F4B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A7D2F10A45500F4B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CD8A872F10A45500F4B2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CD8A752F10A45400F4B2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CD8A712F10A45400F4B2D6 /* SimpleShogi Watch App */;
+			targetProxy = 10CD8A742F10A45400F4B2D6 /* PBXContainerItemProxy */;
+		};
+		10CD8A832F10A45500F4B2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CD8A712F10A45400F4B2D6 /* SimpleShogi Watch App */;
+			targetProxy = 10CD8A822F10A45500F4B2D6 /* PBXContainerItemProxy */;
+		};
+		10CD8A8D2F10A45500F4B2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CD8A712F10A45400F4B2D6 /* SimpleShogi Watch App */;
+			targetProxy = 10CD8A8C2F10A45500F4B2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CD8A932F10A45500F4B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10CD8A942F10A45500F4B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		10CD8A962F10A45500F4B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeaChess;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.SimpleShogi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		10CD8A972F10A45500F4B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SeaChess;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.SimpleShogi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		10CD8A9A2F10A45500F4B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				INFOPLIST_KEY_CFBundleDisplayName = SimpleShogi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.SimpleShogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		10CD8A9B2F10A45500F4B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				INFOPLIST_KEY_CFBundleDisplayName = SimpleShogi;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.engineernest.SimpleShogi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10CD8A9D2F10A45500F4B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engineernest.SimpleShogi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleShogi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleShogi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		10CD8A9E2F10A45500F4B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engineernest.SimpleShogi-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleShogi Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleShogi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		10CD8AA02F10A45500F4B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engineernest.SimpleShogi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SimpleShogi Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		10CD8AA12F10A45500F4B2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XQZ4S6PXLM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engineernest.SimpleShogi-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SimpleShogi Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CD8A692F10A45300F4B2D6 /* Build configuration list for PBXProject "SimpleShogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD8A932F10A45500F4B2D6 /* Debug */,
+				10CD8A942F10A45500F4B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD8A952F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD8A962F10A45500F4B2D6 /* Debug */,
+				10CD8A972F10A45500F4B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD8A992F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD8A9A2F10A45500F4B2D6 /* Debug */,
+				10CD8A9B2F10A45500F4B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD8A9C2F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD8A9D2F10A45500F4B2D6 /* Debug */,
+				10CD8A9E2F10A45500F4B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CD8A9F2F10A45500F4B2D6 /* Build configuration list for PBXNativeTarget "SimpleShogi Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CD8AA02F10A45500F4B2D6 /* Debug */,
+				10CD8AA12F10A45500F4B2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10CD8A662F10A45300F4B2D6 /* Project object */;
+}
