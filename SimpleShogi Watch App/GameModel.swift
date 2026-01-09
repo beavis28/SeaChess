@@ -307,7 +307,6 @@ class GameState: ObservableObject {
         // ライオンを取られたかチェック
         var playerLionExists = false
         var aiLionExists = false
-        var playerLionInGoal = false
         
         for row in 0..<rows {
             for col in 0..<cols {
@@ -315,10 +314,6 @@ class GameState: ObservableObject {
                     if piece.type == .lion {
                         if piece.owner == .player {
                             playerLionExists = true
-                            // プレイヤーのライオンがAIの陣地（row 0）に到達
-                            if row == 0 {
-                                playerLionInGoal = true
-                            }
                         } else {
                             aiLionExists = true
                         }
@@ -333,9 +328,6 @@ class GameState: ObservableObject {
         } else if !playerLionExists {
             gameOver = true
             winner = .ai
-        } else if playerLionInGoal {
-            gameOver = true
-            winner = .player
         }
     }
     

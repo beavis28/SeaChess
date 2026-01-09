@@ -1,0 +1,44 @@
+SeaChess - Strategic Board Game for Apple Watch
+
+Dive into the depths of strategic gameplay with SeaChess, a captivating 4x4 board game designed exclusively for Apple Watch. Battle against an intelligent AI opponent in this simplified chess-like game featuring sea creatures.
+
+GAME RULES:
+
+BOARD & SETUP
+• Play on a 4x4 grid
+• Your pieces start randomly placed on the bottom row
+• AI pieces start randomly placed on the top row
+• Each player has 4 pieces: Whale, Octopus, Crab, and Small Fish
+
+PIECES & MOVEMENT
+🐋 Whale (King): Moves 1 square in any direction (8 directions)
+🐙 Octopus (Rook): Moves 1 square horizontally or vertically (4 directions)
+🦀 Crab (Bishop): Moves 1 square diagonally (4 directions)
+🐟 Small Fish (Pawn): Moves 1 square forward only
+🦈 Shark (Promoted): When Small Fish reaches opponent's back row, it promotes to Shark and can move forward, backward, sideways, and diagonally forward
+
+CAPTURING & HAND PIECES
+• When you capture an opponent's piece, it goes to your hand
+• You can drop captured pieces on any empty square on your turn
+• Small Fish cannot be dropped on the opponent's back row
+• If you capture a Shark, it becomes a Small Fish in your hand
+
+HOW TO WIN
+• Capture the opponent's Whale
+
+HOW TO PLAY
+• Tap a piece to select it - green squares show valid moves
+• Tap a green square to move your piece
+• Tap a piece in your hand, then tap an empty square to drop it
+• Opponent pieces are shown upside down for easy identification
+
+FEATURES:
+• Intuitive touch controls optimized for Apple Watch
+• Smart AI opponent with adjustable difficulty
+• Beautiful sea creature themed pieces
+• Random starting positions for varied gameplay
+• Hand piece management system
+• Automatic piece promotion
+
+Perfect for quick strategic sessions on your wrist. Challenge yourself against the AI and master the art of SeaChess!
+
