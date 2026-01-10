@@ -46,12 +46,9 @@ struct ContentView: View {
                                                 .font(.system(size: 20, weight: .bold))
                                             
                                             // 王冠を被せる
-                                            VStack {
-                                                Text("👑")
-                                                    .font(.system(size: 9))
-                                                    .offset(y: -10)
-                                                Spacer()
-                                            }
+                                            Text("👑")
+                                                .font(.system(size: 9))
+                                                .offset(y: -7)
                                         } else {
                                             Text(pieceType.rawValue)
                                                 .font(.system(size: 18))
@@ -208,13 +205,10 @@ struct BoardCellView: View {
                                 .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
                             
                             // 王冠を被せる
-                            VStack {
-                                Text("👑")
-                                    .font(.system(size: 14))
-                                    .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
-                                    .offset(y: -12)
-                                Spacer()
-                            }
+                            Text("👑")
+                                .font(.system(size: 14))
+                                .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
+                                .offset(y: piece.owner == .ai ? 8 : -8)
                         } else {
                             Text(piece.displaySymbol)
                                 .font(.system(size: 24))
