@@ -39,8 +39,24 @@ struct ContentView: View {
                                     RoundedRectangle(cornerRadius: 3)
                                         .fill(gameState.selectedHandPiece == pieceType ? Color.blue.opacity(0.5) : Color.gray.opacity(0.2))
                                         .frame(width: 30, height: 30)
-                                    Text(pieceType.rawValue)
-                                        .font(.system(size: 18))
+                                    ZStack {
+                                        if pieceType == .lion {
+                                            // 鯨（どっしりとした表現）
+                                            Text(pieceType.rawValue)
+                                                .font(.system(size: 20, weight: .bold))
+                                            
+                                            // 王冠を被せる
+                                            VStack {
+                                                Text("👑")
+                                                    .font(.system(size: 9))
+                                                    .offset(y: -10)
+                                                Spacer()
+                                            }
+                                        } else {
+                                            Text(pieceType.rawValue)
+                                                .font(.system(size: 18))
+                                        }
+                                    }
                                 }
                             }
                             .buttonStyle(PlainButtonStyle())
@@ -184,9 +200,32 @@ struct BoardCellView: View {
                 
                 // 駒
                 if let piece = gameState.getPiece(at: position) {
-                    Text(piece.displaySymbol)
-                        .font(.system(size: 24))
-                        .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
+                    ZStack {
+                        if piece.type == .lion {
+                            // 鯨（どっしりとした表現）
+                            Text(piece.displaySymbol)
+                                .font(.system(size: 28, weight: .bold))
+                                .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
+                            
+                            // 王冠を被せる
+                            VStack {
+                                Text("👑")
+                                    .font(.system(size: 14))
+                                    .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
+                                    .offset(y: -12)
+                                Spacer()
+                            }
+                        } else {
+                            Text(piece.displaySymbol)
+                                .font(.system(size: 24))
+                                .rotationEffect(.degrees(piece.owner == .ai ? 180 : 0))
+                        }
+                    }
+                } else if isValidMove {
+                    // 動ける位置を示す緑点（駒がない場合）
+                    Circle()
+                        .fill(Color.green)
+                        .frame(width: 8, height: 8)
                 }
             }
         }
@@ -198,10 +237,10 @@ struct BoardCellView: View {
         if isSelected {
             return .blue.opacity(0.5)
         } else if isValidMove {
-            return .green.opacity(0.3)
+            return .green.opacity(0.6)
         } else {
-            // チェッカーパターン
-            return (position.row + position.col) % 2 == 0 ? Color.gray.opacity(0.2) : Color.gray.opacity(0.1)
+            // チェッカーパターン（青と水色）
+            return (position.row + position.col) % 2 == 0 ? Color.blue.opacity(0.3) : Color.cyan.opacity(0.3)
         }
     }
     
