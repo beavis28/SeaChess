@@ -85,6 +85,57 @@ struct ContentView: View {
                     }
                     .font(.caption2)
                 }
+                
+                // Rules section
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Rules")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .padding(.top, 4)
+                    
+                    // Whale (King)
+                    RuleRowView(
+                        icon: "🐋",
+                        name: "Whale (King)",
+                        description: "Moves 1 square in all directions",
+                        hasCrown: true
+                    )
+                    
+                    // Octopus (Bishop)
+                    RuleRowView(
+                        icon: "🐙",
+                        name: "Octopus (Bishop)",
+                        description: "Moves 1 square horizontally or vertically"
+                    )
+                    
+                    // Crab (Rook)
+                    RuleRowView(
+                        icon: "🦀",
+                        name: "Crab (Rook)",
+                        description: "Moves 1 square diagonally"
+                    )
+                    
+                    // Fish (Pawn)
+                    RuleRowView(
+                        icon: "🐟",
+                        name: "Fish (Pawn)",
+                        description: "Moves 1 square forward"
+                    )
+                    
+                    // Shark (Promoted Fish)
+                    RuleRowView(
+                        icon: "🦈",
+                        name: "Shark (Promoted Fish)",
+                        description: "Moves forward, backward, sideways, and diagonally forward"
+                    )
+                    
+                    Text("Win Condition: Capture the opponent's whale")
+                        .font(.caption2)
+                        .foregroundColor(.secondary)
+                        .padding(.top, 2)
+                }
+                .padding(.horizontal, 4)
+                .padding(.top, 4)
             }
             .padding(4)
         }
@@ -238,6 +289,44 @@ struct BoardCellView: View {
         }
     }
     
+}
+
+// ルール説明の行View
+struct RuleRowView: View {
+    let icon: String
+    let name: String
+    let description: String
+    var hasCrown: Bool = false
+    
+    var body: some View {
+        HStack(spacing: 4) {
+            ZStack {
+                if hasCrown {
+                    Text(icon)
+                        .font(.system(size: 16, weight: .bold))
+                    Text("👑")
+                        .font(.system(size: 8))
+                        .offset(y: -6)
+                } else {
+                    Text(icon)
+                        .font(.system(size: 16))
+                }
+            }
+            .frame(width: 24, height: 24)
+            
+            VStack(alignment: .leading, spacing: 1) {
+                Text(name)
+                    .font(.caption2)
+                    .fontWeight(.semibold)
+                Text(description)
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+            
+            Spacer()
+        }
+        .padding(.vertical, 2)
+    }
 }
 
 #Preview {
