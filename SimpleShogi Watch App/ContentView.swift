@@ -182,6 +182,12 @@ struct ContentView: View {
         
         // 盤上の駒の処理
         if let selected = gameState.selectedPosition {
+            // 同じコマを再度タップした場合は選択を解除
+            if selected.row == position.row && selected.col == position.col {
+                gameState.selectedPosition = nil
+                return
+            }
+            
             // 移動先が選択されている
             let validMoves = gameState.getValidMoves(from: selected)
             if validMoves.contains(position) {
